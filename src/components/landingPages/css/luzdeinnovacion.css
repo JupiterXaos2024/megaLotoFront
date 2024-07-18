@@ -1,0 +1,108 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+.landing-page-luzdeInnova {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Asegura que ocupe al menos la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  overflow: auto; /* Permite el desplazamiento si el contenido es demasiado grande */
+}
+
+.landing-page-luzdeInnova .background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.landing-page-luzdeInnova .content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.landing-page-luzdeInnova .content h1,h2{
+  color: rgb(250, 212, 0);
+  text-shadow: 1px 1px 1px rgb(251, 250, 250);
+  margin-bottom: 10px;
+}
+.landing-page-luzdeInnova .content h2{
+  color: rgb(250, 212, 0);
+  text-shadow: 1px 1px 1px rgb(251, 250, 250);
+  margin-bottom: 10px;
+}
+.landing-page-luzdeInnova .content h3{
+  color: rgb(250, 234, 144);
+  text-align: left;
+}
+
+.landing-page-luzdeInnova .content strong{
+  color: rgb(255, 217, 0);
+  text-align: left;
+}
+
+.landing-page-luzdeInnova .content p{
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.landing-page-luzdeInnova .content .boton-1{
+  overflow: hidden;
+  border: 2px solid rgb(245, 220, 81);
+  box-shadow: 1px 1px 1px white;
+  font-weight: bold;
+  z-index: 1;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.landing-page-luzdeInnova .content .boton-1:hover{
+  transform: scale(1.1);
+  color: var(--color-primary-font);
+}
+
+@media (max-width: 768px) {
+  .landing-page-luzdeInnova .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    min-height: 100vh; /* Asegura que el contenido ocupe al menos toda la altura de la pantalla */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la pantalla */
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  }
+}
+@media (max-width: 480px) {
+  .landing-page-luzdeInnova .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    min-height: 100%; /* Asegura que el contenido ocupe al menos toda la altura de la pantalla */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la pantalla */
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  }
+}

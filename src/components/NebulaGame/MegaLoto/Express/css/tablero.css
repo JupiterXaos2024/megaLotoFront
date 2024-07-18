@@ -1,0 +1,17 @@
+.CartonesenJuego {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fila-cartones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .carton {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  

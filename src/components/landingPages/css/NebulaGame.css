@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+.landing-page-NebulaGame {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Asegura que ocupe al menos la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  overflow: auto; /* Permite el desplazamiento si el contenido es demasiado grande */
+}
+
+.landing-page-NebulaGame .background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.landing-page-NebulaGame .content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.landing-page-NebulaGame .content h1,h2{
+  color: rgb(48, 248, 248);
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.landing-page-NebulaGame .content h3, strong{
+  text-align: left;
+  color: rgb(7, 186, 150);
+  margin-bottom: 10px;
+}
+.landing-page-NebulaGame .content p{
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.landing-page-NebulaGame .content .boton-1{
+  overflow: hidden;
+  border: 2px solid rgb(14, 239, 235);
+  box-shadow: 1px 1px 1px white;
+  font-weight: bold;
+  z-index: 1;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.landing-page-NebulaGame .content .boton-1:hover{
+  transform: scale(1.1);
+  color: var(--color-primary-font);
+}

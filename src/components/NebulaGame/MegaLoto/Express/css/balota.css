@@ -1,0 +1,49 @@
+.balota {
+    text-align: center;
+  }
+  .titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    left: -15px;
+  }
+
+  .balota h3{
+    font-size: 100px;
+    margin: 5px;
+  }
+
+  .seleccionados {
+    margin: 20px auto;
+    border-collapse: collapse;
+    position: fixed;
+    
+    color: aliceblue;
+  }
+  .box{
+    position: absolute;
+    right: 130px;
+  }
+  td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .seleccionado {
+    background-color: lightgreen;
+    color: crimson;
+  }
+  
+  .ganador {
+    font-size: 3em;
+    margin-top: 50px;
+  }
+  h2{
+    font-size: xx-large;
+  }
+  
+ 

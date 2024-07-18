@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_inferior{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    /* transform: translate(-50%, -50%); */
+    height: 110px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: var(--sombras);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.contenedor_inferior::before{
+    content: '';
+    position: relative;
+    height: 600px;
+    min-width: 150%;
+    background-image: conic-gradient(red,rgb(255, 251, 0),rgb(51, 255, 0),rgb(0, 255, 170),rgb(0, 34, 255),rgb(255, 0, 255),rgb(255, 0, 0));
+    animation: rotacion 5s linear infinite;
+    border-radius: 30%;
+}
+@keyframes rotacion{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.contenedor_superior{
+    /* display: flex;
+    background-color: black; */
+    position: absolute;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 10px;
+    margin-bottom: 0; /* Hace que el margen negativo compense el margen superior del contenedor inferior */
+    filter: blur(0px);
+    border-radius: 10px;
+
+}
+  .contenedor_superior h1 {
+    margin: 0;
+    font-size: 100px;
+    -webkit-text-stroke: 3px black;
+  }
+  

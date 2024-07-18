@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #0a042a;
+    --color-secondary: #401cc2;
+    --font-family: sans-serif;
+    --font-size-base: 16px;
+    --color-primary-font: #ffffff;
+    --color-secondary-font: #0B061C;
+    --sombras: 5px 6px 10px 7px rgb(0 0 0 / 70%)
+  }

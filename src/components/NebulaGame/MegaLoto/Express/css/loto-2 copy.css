@@ -1,0 +1,144 @@
+.MegaLotoExpress{
+    display:block;
+}
+.MegaLotoExpress .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* z-index: -1; */
+    pointer-events: none;
+    }
+
+.MegaLotoExpress .Encabezado{
+    display: block;
+}
+.MegaLotoExpress .Encabezado .tituloNeon{
+    position: absolute;
+}
+.MegaLotoExpress .Encabezado .tituloNeon .contenedor_inferior{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 110px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: var(--sombras);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MegaLotoExpress .Encabezado .tituloNeon .contenedor_inferior .contenedor_superior h1{
+    font-size: 50px;
+    -webkit-text-stroke: 3px #f5f2f2;
+}
+.MegaLotoExpress .Encabezado .contenedorPremio{
+    position: absolute;
+    left: 600px;
+    top: 7px;
+}
+.MegaLotoExpress .Encabezado .contenedorPremio .Premio{
+    display: grid;
+    justify-items: center;
+}
+.MegaLotoExpress .Encabezado .contenedorPremio .Premio h1, h3{
+    font-size: 65px;
+    color: darkgoldenrod;
+    -webkit-text-stroke: 2px #f5f2f2;
+    text-shadow: 10px 10px 10px rgb(0 0 0 / 70%);
+}
+.MegaLotoExpress .Encabezado .contenedorPremio .Premio h3{
+    font-size: 35px;
+}
+.MegaLotoExpress .Encabezado .contenedorBalota{
+    position: fixed;
+    right: 250px;
+    bottom: 200px;
+}
+.MegaLotoExpress .Encabezado .contenedorBalota .seleccionados{
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    transform: scale(1);
+    background: #07070700;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    font-size: 22px;
+    z-index: 200;
+}
+.MegaLotoExpress .Encabezado .contenedorBalota .seleccionados td{
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 70%);
+}
+.MegaLotoExpress .Encabezado .contenedorBalota .tit{
+    position: fixed;
+    left: 500px;
+    bottom: 160px;
+}
+.MegaLotoExpress .Encabezado .contenedorBalota .balota h3{
+    font-size: 160px;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    text-shadow: 10px 10px 10px rgb(0 0 0 / 70%);
+    text-align: center;
+}
+.MegaLotoExpress .contenedorTablero {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    position: fixed;
+    top: -320px;
+    left: -365px;
+    color: aliceblue;
+    border-radius: 10px;
+    transform: scale(0.62);
+    font-size: 21px;
+    /* z-index: -1; */
+}
+.MegaLotoExpress .contenedorTablero .CartonesenJuego {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MegaLotoExpress .contenedorTablero .fila-cartones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+  }
+  
+  .MegaLotoExpress .contenedorTablero .fila-cartones .carton {
+    margin: 0px;
+    border: 3px solid #00ff04;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.531);
+    
+  }
+  .MegaLotoExpress .contenedorTablero .carton table{
+    align-items: center;
+    color: white;
+    text-shadow: 1.5px 1.5px 2px rgb(0, 0, 0);
+    box-shadow: 10px 7px 5px rgb(0 0 0 / 70%);
+} 
+
+ 
+  .MegaLotoExpress .contenedorTablero .carton{
+    top: 0;
+}
+.MegaLotoExpress .contenedorTablero .carton h4{
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 70%);
+}
+.MegaLotoExpress .contenedorTablero .cartonParticipante td{
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 70%);
+}
+.MegaLotoExpress .contenedorTablero .carton table{
+    width: 120px;
+    align-items: center;
+    color: white;
+    text-shadow: 1.5px 1.5px 2px rgb(0, 0, 0);
+    box-shadow: 10px 7px 5px rgb(0 0 0 / 70%);
+}
